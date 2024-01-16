@@ -21,7 +21,7 @@ const Favourites = () => {
             {favourites.map((fav, i) => (
               <ListGroupItem key={i}>
                 <StarFill
-                  className="mr-2"
+                  className="me-2"
                   onClick={() =>
                     dispatch({
                       type: "REMOVE_FROM_FAVOURITE",
